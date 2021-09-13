@@ -42,7 +42,7 @@ use_frustum: True
 
 python -u test.py
 
-#### Citation:
+### Citation:
 @article{kumar2021pc
 	title={PC-DAN: Point Cloud based Deep Affinity Network for 3D Multi-Object Tracking},
 	author={Kumar, Aakash and Kini, Jyoti and Shah, Mubarak and Mian, Ajmal},
@@ -50,5 +50,5 @@ python -u test.py
 	year={2021}
 }
 
-#### Acknowledgement:
+### Acknowledgement:
 Our code benefits from the implementations by Zhang et al. https://github.com/ZwwWayne/mmMOT (Robust Multi-Modality Multi-Object Tracking) and Sun et al. https://github.com/shijieS/SST (DAN-Deep Affinity Network)
