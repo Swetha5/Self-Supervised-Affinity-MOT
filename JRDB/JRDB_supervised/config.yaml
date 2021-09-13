@@ -1,0 +1,25 @@
+common:
+
+    workers: 1
+    batch_size: 1
+    lr_scheduler:
+        #type: COSINE
+        optim: Adam
+        type: one_cycle
+        base_lr: 0.0003
+        lr_max: 0.0006
+        moms: [0.95, 0.85]
+        div_factor: 10.0
+        pct_start: 0.4
+        max_iter: 134200 # 40 * 3355
+    print_freq: 100
+    save_weights: 'check_code' # where you want to save the weights while trainig a model
+    root_dir: '/home/c3-0/datasets/JRDB/MOT_output_pt/'
+    train_label_dir: '/home/c3-0/datasets/JRDB/cvgl/group/jrdb/data/train_dataset/labels/labels_3d/'
+    test_label_dir: '/home/c3-0/datasets/JRDB/cvgl/group/jrdb/data/test_dataset/detections/detections_3d/'
+    val_label_dir: '/home/c3-0/datasets/JRDB/ground_truth_val_labels/sequences/'
+    load_weights: 'check_code/ssj300_0712_epoch_60.0_Loss_ 0.0617.pth'
+    val_prediction_dir: 'check_code/epoch_check/'
+    test_prediction_dir: 'check_code/epoch_check_test'
+
+

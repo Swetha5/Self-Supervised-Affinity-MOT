@@ -1,0 +1,37 @@
+CUDA_VISIBLE_DEVICES=0
+groundtruths /home/c3-0/datasets/JRDB/ground_truth_val_labels/sequences
+10:19:12 INFO - Found 7 groundtruths and 7 test files.
+10:19:12 INFO - Available LAP solvers ['scipy', 'munkres', 'ortools']
+10:19:12 INFO - Default LAP solver 'ortools'
+10:19:12 INFO - Loading files.
+10:19:20 INFO - Comparing clark-center-2019-02-28_1...
+10:25:04 INFO - Comparing gates-ai-lab-2019-02-08_0...
+10:25:37 INFO - Comparing huang-2-2019-01-25_0...
+10:26:00 INFO - Comparing meyer-green-2019-03-16_0...
+10:26:12 INFO - Comparing nvidia-aud-2019-04-18_0...
+10:27:08 INFO - Comparing tressider-2019-03-16_1...
+10:28:17 INFO - Comparing tressider-2019-04-26_2...
+10:48:20 INFO - Running metrics
+accs  [<tools.mot.MOTAccumulator object at 0x151ebb33e450>, <tools.mot.MOTAccumulator object at 0x151eb9e06b90>, <tools.mot.MOTAccumulator object at 0x151eb9ead510>, <tools.mot.MOTAccumulator object at 0x151ebb324490>, <tools.mot.MOTAccumulator object at 0x151ebcfcb990>, <tools.mot.MOTAccumulator object at 0x151eb7615750>, <tools.mot.MOTAccumulator object at 0x151eb9de7950>]
+names  ['clark-center-2019-02-28_1', 'gates-ai-lab-2019-02-08_0', 'huang-2-2019-01-25_0', 'meyer-green-2019-03-16_0', 'nvidia-aud-2019-04-18_0', 'tressider-2019-03-16_1', 'tressider-2019-04-26_2']
+ValueError: bytes-cafe-2019-02-07_0
+10:50:02 INFO - Completed
+evaluation results saved in directory  /home/aa809504/JRDB-SAMOT/weights/train_with_kitti_weights/max_sample_10/epoch_23/summary.txt
+                           num_unique_objects  ...      motp
+clark-center-2019-02-28_1                 123  ...  0.000255
+gates-ai-lab-2019-02-08_0                  25  ... -0.000550
+huang-2-2019-01-25_0                       41  ... -0.000972
+meyer-green-2019-03-16_0                   15  ... -0.000570
+nvidia-aud-2019-04-18_0                    40  ...  0.001423
+tressider-2019-03-16_1                     38  ...  0.003106
+tressider-2019-04-26_2                    207  ...  0.000238
+OVERALL                                   489  ...  0.000432
+0-5m                                      183  ... -0.000902
+5-10m                                     356  ...  0.000807
+10-15m                                    205  ...  0.000706
+15-20m                                    121  ...  0.003540
+20-25m                                    113  ...  0.000490
+25+m                                      115  ... -0.000122
+OVERALL (15m)                             417  ...  0.000315
+
+[15 rows x 10 columns]
