@@ -28,7 +28,7 @@ run prepare_dataset.py after giving it path to the downloaded train and test dat
 Note: you will get following folders Sequences and Test_sequences which will contained lidar frames only.
 
 ```
-prepare_dataset.py
+python -u prepare_dataset.py
 ```
 
 ### Download Weights:
@@ -37,8 +37,8 @@ prepare_dataset.py
 
 
 ### Download Validation Lables:
-[Download_validation_lables](https://drive.google.com/drive/folders/1Y_lv_JI7xsaLDQBvSB7gZ0ThMZ7mrviF?usp=sharing)
-Validation lables int the txt files. 
+
+[Download_validation_lables](https://drive.google.com/drive/folders/1Y_lv_JI7xsaLDQBvSB7gZ0ThMZ7mrviF?usp=sharing) 
 
 ### Update config file:
 open config file, edit paths to root_dir, train_label_dir, test_label_dir, val_label_dir, load_weights, val_prediction_dir
@@ -51,15 +51,32 @@ load_weights takes to path to downloaded weights from google_drive. Path can be 
 val_prediction_dir takes the path where you want to save your validation results 
 
 ### Perform evalulation:
-Run eval_seq.py file. you will get the results in val_prediction_dir path defined in cofig file
+you will get the results in val_prediction_dir, path defined in cofig file.
+
+```
+python -u eval_seq.py
+
+```
 
 ### Traning:
 You can train with main.py
 Note: it takes around 60 epochs to get the desires results. you will get the weights on every epoch.
 
+```
+python -u main.py
+
+```
+
 ### Test: (Optional)
 you can get the prediction on test data with test_seq.py file. Output will be in kitti and JRDB formate. 
 To evaluate results on test files, you need to upload the JRDB formate files on leaderboard at JRDB website.
+
+```
+python test_seq.py
+
+```
+
+
 
 # JRDB-Dataset-Self-Supervised
 
