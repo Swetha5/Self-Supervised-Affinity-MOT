@@ -27,9 +27,9 @@ edit prepare_dataset.py
 run prepare_dataset.py after giving it path to the downloaded train and test dataset. Also give path where you want to save the processed data
 Note: you will get following folders Sequences and Test_sequences which will contained lidar frames only.
 
-'''
+```
 prepare_dataset.py
-'''
+```
 
 ### Download Weights:
 
