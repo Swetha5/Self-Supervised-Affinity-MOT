@@ -46,7 +46,7 @@ Use below command in terminal:
 python -u eval_seq.py
 ```
 
-#### Test:
+#### Test
 We use 2D [RRC detections](https://github.com/xiaohaoChen/rrc_detection) (Accurate Single Stage Detector Using Recurrent Rolling Convolution) and generate frustums during testing, hence we need to update the below mentioned **'config.yaml'** variables:
 ```
 det_type: 2D
@@ -57,7 +57,7 @@ Use below command in terminal:
 python -u test.py
 ```
 
-### Citation:
+### Citation
 ```
 @article{kumar2021pc
 	title={PC-DAN: Point Cloud based Deep Affinity Network for 3D Multi-Object Tracking},
@@ -67,5 +67,5 @@ python -u test.py
 }
 ```
 
-### Acknowledgement:
+### Acknowledgement
 Our code benefits from the implementations by [Zhang et al.](https://github.com/ZwwWayne/mmMOT) (Robust Multi-Modality Multi-Object Tracking) and [Sun et al.](https://github.com/shijieS/SST) (DAN-Deep Affinity Network)
