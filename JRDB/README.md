@@ -79,7 +79,18 @@ To evaluate results on test files, you need to upload the JRDB formate files on 
 python test_seq.py
 
 ```
+### Citation
+```
+@article{kumar2021pc
+	title={PC-DAN: Point Cloud based Deep Affinity Network for 3D Multi-Object Tracking},
+	author={Kumar, Aakash and Kini, Jyoti and Shah, Mubarak and Mian, Ajmal},
+	conference={IEEE Conference on Computer Vision and Pattern Recognition Workshops},
+	year={2021}
+}
+```
 
+### Acknowledgement
+Our code benefits from the implementations by [Zhang et al.](https://github.com/ZwwWayne/mmMOT) (Robust Multi-Modality Multi-Object Tracking) and [Sun et al.](https://github.com/shijieS/SST) (DAN-Deep Affinity Network)
 
 
 # JRDB-Dataset-Self-Supervised
