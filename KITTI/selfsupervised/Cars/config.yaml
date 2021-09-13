@@ -64,8 +64,8 @@ common:
     val_freq: 3355 # exact num of samples in 1 epoch with pp
     print_freq: 100
 
-    data_root: /home/c3-0/datasets/kitti_t_o # update path to kitti-dataset
-    pre_data_root: /home/jy435956/git/pc-dan/lockheed/kitti/selfsupervised/Cars/data # update path to downloaded 'data' folder
+    data_root: /home/datasets/kitti_t_o # update path to kitti-dataset
+    pre_data_root: /home/git/kitti/selfsupervised/Cars/data # update path to downloaded 'data' folder
 
     train_root: /training
     train_link : /train.txt
