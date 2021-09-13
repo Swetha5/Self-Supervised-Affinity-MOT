@@ -19,18 +19,25 @@ pip install -r requirements.txt
 ```
 
 ### Download Data:
-Download Data from following link https://jrdb.stanford.edu/dataset/about
 
-### Data Preparation (prepare_dataset.py):
+[Download](https://jrdb.stanford.edu/dataset/about)
+
+### Data Preparation:
 edit prepare_dataset.py
 run prepare_dataset.py after giving it path to the downloaded train and test dataset. Also give path where you want to save the processed data
 Note: you will get following folders Sequences and Test_sequences which will contained lidar frames only.
 
+'''
+prepare_dataset.py
+'''
+
 ### Download Weights:
-https://drive.google.com/drive/folders/1Y_lv_JI7xsaLDQBvSB7gZ0ThMZ7mrviF?usp=sharing
+
+[Download_Weights](https://drive.google.com/drive/folders/1Y_lv_JI7xsaLDQBvSB7gZ0ThMZ7mrviF?usp=sharing)
+
 
 ### Download Validation Lables:
-https://drive.google.com/drive/folders/1Y_lv_JI7xsaLDQBvSB7gZ0ThMZ7mrviF?usp=sharing
+[Download_validation_lables](https://drive.google.com/drive/folders/1Y_lv_JI7xsaLDQBvSB7gZ0ThMZ7mrviF?usp=sharing)
 Validation lables int the txt files. 
 
 ### Update config file:
