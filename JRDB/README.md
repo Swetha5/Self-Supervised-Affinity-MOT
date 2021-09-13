@@ -105,4 +105,4 @@ Moreover we use augmentation for self-supervised which you can see in get_pointc
 
 you can also check by printing the det_info of dataloader which will give the information of which two frames are used train the model. In case of self-supervised two same frames are used.
 
-Note: Your model will be trained in just 3 to 5 epochs. You can check evaluate the weights for these epochs
+Note: Your model will be trained in just 3 to 7 epochs. You can check evaluate the weights for these epochs
