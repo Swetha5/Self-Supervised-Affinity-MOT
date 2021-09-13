@@ -68,4 +68,4 @@ python -u test.py
 ```
 
 ### Acknowledgement:
-Our code benefits from the implementations by [Zhang et al.](https://github.com/ZwwWayne/mmMOT) (Robust Multi-Modality Multi-Object Tracking) and [Sun et al.] (https://github.com/shijieS/SST) (DAN-Deep Affinity Network)
+Our code benefits from the implementations by [Zhang et al.](https://github.com/ZwwWayne/mmMOT) (Robust Multi-Modality Multi-Object Tracking) and [Sun et al.](https://github.com/shijieS/SST) (DAN-Deep Affinity Network)
