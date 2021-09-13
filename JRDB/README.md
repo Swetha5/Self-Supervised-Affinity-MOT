@@ -50,6 +50,10 @@ val_label_dir takes the path to downloaded validation labels from google drive. 
 load_weights takes to path to downloaded weights from google_drive. Path can be something like 'weights/ssj300_0712_epoch_60.0_Loss_ 0.0617.pth'
 val_prediction_dir takes the path where you want to save your validation results 
 
+```
+config.yaml
+```
+
 ### Perform evalulation:
 you will get the results in val_prediction_dir, path defined in cofig file.
 
