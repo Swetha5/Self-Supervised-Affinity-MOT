@@ -5,18 +5,19 @@ cuda_10.0 <br/>
 cudnn_v7.6.5
 
 ### Environmental setup
+
+
 ```
-conda create -n pcdan python=3.7 cython
-conda activate pcdan
-conda install pytorch torchvision -c pytorch
-conda install numba
-conda install -c conda-forge tensorboardx
+conda env create -f jrdb_environment.yaml
+
 ```
 
-### Install other dependencies
-```
-pip install -r requirements.txt
-```
+### Activate Enviroment
+
+'''
+conda activate pcdan_jrdb
+
+'''
 
 ### Download Data:
 
