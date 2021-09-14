@@ -9,15 +9,13 @@ cudnn_v7.6.5
 
 ```
 conda env create -f jrdb_environment.yaml
-
 ```
 
 ### Activate Enviroment
 
-'''
+```
 conda activate pcdan_jrdb
-
-'''
+```
 
 ### Download Data:
 
