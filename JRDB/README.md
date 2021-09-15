@@ -11,11 +11,14 @@ cudnn_v7.6.5
 conda env create -f jrdb_environment.yaml
 ```
 
-### Activate Enviroment
+### Activate Enviroment and Install a pakage
 
 ```
 conda activate pcdan_jrdb
+
+conda install -c conda-forge easydict
 ```
+
 
 ### Download Data:
 
