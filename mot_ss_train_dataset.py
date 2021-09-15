@@ -150,7 +150,7 @@ class GTSingleParser:
             return orig_img, np.array(orig_boxes), next_img, np.array(next_boxes), labels
         else:
             aug_choice = random.choice(['rot', 'flip', 'blur', 'cutout'])
-            print('aug choice is :' + aug_choice)
+            # print('aug choice is :' + aug_choice)
             if aug_choice == 'flip':
                 aug_img, aug_boxes = self.mirror(orig_img, orig_boxes)
                 # randomly apply motion blur

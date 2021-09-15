@@ -28,7 +28,7 @@ parser.add_argument('--margin', default=0.5, type=float,
                     help='margin')
 parser.add_argument('--alpha', default=0.5, type=float,
                     help='alpha parameter for weighing losses')
-parser.add_argument('--angle_rot', default=40, type=int, help='angle for rotation')
+parser.add_argument('--angle_rot', default=15, type=int, help='angle for rotation')
 parser.add_argument('--momentum', default=0.9, type=float, help='momentum')
 parser.add_argument('--weight_decay', default=5e-4, type=float, help='Weight decay for SGD')
 parser.add_argument('--gamma', default=0.1, type=float, help='Gamma update for SGD')
@@ -38,7 +38,7 @@ parser.add_argument('--port', default=6006, type=int, help='set visdom port')
 parser.add_argument('--send_images', type=str2bool, default=True,
                     help='Sample a random image from each 10th batch, send it to visdom after augmentations step')
 parser.add_argument('--save_base_path', default=config['save_base_path'], help='Location to save all model data base path')
-parser.add_argument('--mot_root', default=config['mot_root'], help='Location of VOC root directory')
+parser.add_argument('--mot_root', default=config['mot_root'], help='Location of MOT root directory')
 parser.add_argument('--type', default=config['type'], help='train/test')
 parser.add_argument('--show_image', default=True, help='show image if true, or hidden')
 parser.add_argument('--save_video', default=True, help='save video if true')
