@@ -37,8 +37,8 @@ python -u main.py
 
 #### Validation
 Download and add pre-trained weights to **'results'** folder <br/>
-[Supervised]([https://knightsucfedu39751-my.sharepoint.com/:u:/g/personal/jyoti_kini_knights_ucf_edu/EevLRCiXvpZPhquIZ2FNXKMBGJEs6dkAbus8947ACACx9A?e=elsDBI](https://ucf-my.sharepoint.com/personal/jy435956_ucf_edu/_layouts/15/onedrive.aspx?e=5%3Ae0e74817d279417b9a7cb2eb531ff7fe&sharingv2=true&fromShare=true&at=9&CT=1722973339638&OR=OWA%2DNT%2DMail&CID=1a612cd6%2Da351%2D4ec3%2D6071%2Dd7e022b4f91f&clickParams=eyJYLUFwcE5hbWUiOiJNaWNyb3NvZnQgT3V0bG9vayBXZWIgQXBwIiwiWC1BcHBWZXJzaW9uIjoiMjAyNDA3MTkwMDIuMjMiLCJPUyI6IkxpbnV4IHVuZGVmaW5lZCJ9&cidOR=Client&id=%2Fpersonal%2Fjy435956%5Fucf%5Fedu%2FDocuments%2FPC%2DDAN%2Fweights&FolderCTID=0x012000024558296AB9334480041ED5625BCEF1&view=0) <br/>
-[Self-supervised]([https://knightsucfedu39751-my.sharepoint.com/:f:/g/personal/jyoti_kini_knights_ucf_edu/EnKg8n4iRkZDqmKoThEeFZIBas4myhgI7L9Gjia92g_b0g?e=VRnaRD](https://ucf-my.sharepoint.com/personal/jy435956_ucf_edu/_layouts/15/onedrive.aspx?e=5%3Ae0e74817d279417b9a7cb2eb531ff7fe&sharingv2=true&fromShare=true&at=9&CT=1722973339638&OR=OWA%2DNT%2DMail&CID=1a612cd6%2Da351%2D4ec3%2D6071%2Dd7e022b4f91f&clickParams=eyJYLUFwcE5hbWUiOiJNaWNyb3NvZnQgT3V0bG9vayBXZWIgQXBwIiwiWC1BcHBWZXJzaW9uIjoiMjAyNDA3MTkwMDIuMjMiLCJPUyI6IkxpbnV4IHVuZGVmaW5lZCJ9&cidOR=Client&id=%2Fpersonal%2Fjy435956%5Fucf%5Fedu%2FDocuments%2FPC%2DDAN%2Fweights&FolderCTID=0x012000024558296AB9334480041ED5625BCEF1&view=0)
+[Supervised](https://drive.google.com/drive/u/1/folders/1qm_SRWejbcCKaT9fCMqb9gnYnQGCpbZk) <br/>
+[Self-supervised](https://drive.google.com/drive/u/1/folders/1qm_SRWejbcCKaT9fCMqb9gnYnQGCpbZk)
 
 Use below command in terminal:
 ```
